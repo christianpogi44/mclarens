@@ -1,0 +1,14 @@
+local args = {
+    [1] = "OpenVisor"
+}
+
+game:GetService("ReplicatedStorage").UGCTimedUnlock_ClaimItem:InvokeServer(unpack(args))
+
+    print("Clicked")
+end)
+
+local args = {
+    [1] = "ClosedVisor"
+}
+
+game:GetService("ReplicatedStorage").UGCTimedUnlock_ClaimItem:InvokeServer(unpack(args))
